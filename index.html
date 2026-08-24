@@ -167,26 +167,26 @@ p { color: var(--ink-secondary); }
   height: 68px;
 }
 .nav-brand {
-  display: flex; align-items: center; gap: 14px;
+  display: flex; align-items: center; gap: 16px;
+  margin-right: 48px; flex: 0 0 auto;
 }
-.nav-brand-text { display: flex; flex-direction: column; align-items: flex-start; text-align: left; line-height: 1.25; }
-.nav-brand .brand-primary {
-  font-family: var(--font-display); font-weight: 700; font-size: 20px; color: var(--ink-primary);
-  letter-spacing: -0.01em;
+.ust-logo-mark {
+  height: 30px; width: 27px; flex: 0 0 auto; display: block;
+  background-color: var(--ink-primary);
+  -webkit-mask-image: url("data:image/png;base64,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");
+  mask-image: url("data:image/png;base64,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");
+  -webkit-mask-size: contain; mask-size: contain;
+  -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+  -webkit-mask-position: center; mask-position: center;
+  transition: background-color 0.2s var(--ease-out);
+}
+.nav-brand-text {
+  font-family: var(--font-display); font-weight: 700; font-size: 18px; color: var(--ink-primary);
+  letter-spacing: -0.01em; white-space: nowrap;
 }
 .nav-brand .brand-secondary {
-  color: var(--ink-muted); font-family: var(--font-mono); font-size: 11px; font-weight: 400;
-  letter-spacing: 0.06em; margin-top: 2px;
-}
-.nav-brand .brand-mark {
-  width: 26px; height: 26px; position: relative;
-  border: 1.5px solid var(--signal-cyan);
-  display: grid; place-items: center; flex: 0 0 auto;
-}
-.nav-brand .brand-mark::before {
-  content: ''; width: 8px; height: 8px; background: var(--signal-cyan);
-  box-shadow: 0 0 12px var(--signal-cyan);
-  animation: pulse 2s ease-in-out infinite;
+  color: var(--ink-muted); font-family: var(--font-mono); font-weight: 400; font-size: 13px;
+  letter-spacing: 0.02em;
 }
 @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
 
@@ -217,7 +217,7 @@ html[data-mode="simple"] #navJourneyLink:hover { opacity: 1; }
 .nav-right { display: flex; align-items: center; gap: 12px; }
 .nav-cta {
   padding: 8px 16px; font-size: 12px; font-family: var(--font-mono);
-  color: var(--bg-void); background: var(--signal-cyan);
+  color: var(--bg-void); background: var(--signal-cyan); border: none; cursor: pointer;
   letter-spacing: 0.06em; text-transform: uppercase; font-weight: 600;
   transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out);
 }
@@ -2853,11 +2853,8 @@ html[data-mode="simple"] .content-expert { display: none !important; }
 <nav class="nav">
   <div class="shell nav-inner">
     <a class="nav-brand" href="#home" data-nav="home">
-      <span class="brand-mark"></span>
-      <span class="nav-brand-text">
-        <span class="brand-primary">UST SmartOps TelcoOps</span>
-        <span class="brand-secondary">DarkNOC</span>
-      </span>
+      <span class="ust-logo-mark" role="img" aria-label="UST"></span>
+      <span class="nav-brand-text">SmartOps TelcoOps <span class="brand-secondary">(DarkNOC)</span></span>
     </a>
     <div class="nav-links">
       <a class="nav-link" href="#home" data-nav="home">Home</a>
@@ -2886,7 +2883,7 @@ html[data-mode="simple"] .content-expert { display: none !important; }
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
         </button>
       </div>
-      <a class="nav-cta" href="#demo" data-nav="demo">Request Demo</a>
+      <button class="nav-cta" type="button" id="requestDemoBtn">Request Demo</button>
     </div>
   </div>
 </nav>
@@ -5367,6 +5364,43 @@ html[data-mode="simple"] .content-expert { display: none !important; }
   </div>
 </div>
 
+<div class="cap-drawer-backdrop" id="requestDemoBackdrop">
+  <div class="cap-drawer request-accelerator-drawer" role="dialog" aria-modal="true" aria-label="Request a demo">
+    <button class="cap-drawer-close" id="requestDemoClose" type="button" aria-label="Close">&times;</button>
+    <div class="cap-tag">// Request Demo</div>
+    <h2>See DarkNOC in action</h2>
+    <p class="cap-story" style="margin-bottom: 24px;">Tell us a bit about you and what you'd like to see — we'll follow up to schedule a walkthrough.</p>
+    <form id="requestDemoForm" class="request-form">
+      <label class="request-field">
+        <span>Full Name</span>
+        <input type="text" name="fullName" placeholder="e.g. Jordan Lee" required>
+      </label>
+      <label class="request-field">
+        <span>Work Email</span>
+        <input type="email" name="workEmail" placeholder="you@company.com" required>
+      </label>
+      <label class="request-field">
+        <span>Company</span>
+        <input type="text" name="company" placeholder="e.g. Acme Telecom" required>
+      </label>
+      <label class="request-field">
+        <span>Role</span>
+        <input type="text" name="role" placeholder="e.g. VP Network Operations">
+      </label>
+      <label class="request-field">
+        <span>Accelerator(s) of Interest</span>
+        <input type="text" name="interest" placeholder="e.g. CauseIQ, Network SelfHeal — or leave blank for a general overview">
+      </label>
+      <label class="request-field">
+        <span>Anything Else We Should Know?</span>
+        <textarea name="notes" rows="3" placeholder="Current tools, timeline, specific use case, etc."></textarea>
+      </label>
+      <button type="submit" class="cap-btn primary" style="width: 100%; justify-content: center;">Submit request</button>
+      <p class="cap-brochure-note" id="requestDemoStatus" style="margin-top: 4px;">Your request goes directly to the DarkNOC team — no email address is shared with you or stored in this page.</p>
+    </form>
+  </div>
+</div>
+
 <div class="cap-drawer-backdrop" id="requestAcceleratorBackdrop">
   <div class="cap-drawer request-accelerator-drawer" role="dialog" aria-modal="true" aria-label="Request a new accelerator">
     <button class="cap-drawer-close" id="requestAcceleratorClose" type="button" aria-label="Close">&times;</button>
@@ -5408,17 +5442,13 @@ html[data-mode="simple"] .content-expert { display: none !important; }
 <footer class="footer">
   <div class="shell footer-inner">
     <div class="nav-brand">
-      <span class="brand-mark"></span>
-      <span class="nav-brand-text">
-        <span class="brand-primary">UST SmartOps TelcoOps</span>
-        <span class="brand-secondary">DarkNOC</span>
-      </span>
+      <span class="ust-logo-mark" role="img" aria-label="UST"></span>
+      <span class="nav-brand-text">SmartOps TelcoOps <span class="brand-secondary">(DarkNOC)</span></span>
     </div>
     <div class="footer-tagline">Together, we build for boundless impact.</div>
     <div class="footer-meta">
-      <span>UST SmartOps</span>
-      <span>Powered by Claude &amp; Anthropic</span>
-      <span>v3 — May 2026</span>
+      <span><a href="https://www.ust.com/en/smartops" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; border-bottom: 1px solid var(--edge-strong);">UST SmartOps</a></span>
+      <span>Powered by UST SmartOps SmartGenie &amp; Anthropic Claude</span>
     </div>
   </div>
 </footer>
@@ -6380,6 +6410,91 @@ Object.assign(window.DN_CapabilityExperiences, NEW_EXPERIENCES);
     // Shared across both modes: the Expert-Mode "Find Your Solution" grid
     // (and any other future entry point) opens the same drawer.
     window.DN_openCapabilityDrawer = openDrawer;
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+</script>
+<script>
+// "Request Demo" — opens a form modal; on submit, the request is POSTed to
+// an email-relay service (EmailJS) rather than using a mailto: link. This is
+// intentional: mailto: would open the submitter's own mail client with the
+// recipient visible in the "To:" field, which defeats the requirement that
+// the destination address never be shown to the user. With a relay service,
+// the recipient is configured server-side in the relay's dashboard/template
+// and never appears anywhere in this page's HTML, JS, or network payload.
+//
+// SETUP REQUIRED before this actually delivers mail: create a free EmailJS
+// account (or swap in Formspree/Getform/a serverless endpoint of your own),
+// create an email template whose "To" field is set to the destination
+// address in the EmailJS dashboard, then replace the three placeholder
+// strings below with your real Service ID, Template ID, and Public Key.
+// Until then, submissions are captured in the form but not actually
+// delivered anywhere — the UI still confirms receipt so the flow can be
+// demoed end to end.
+(function () {
+  const EMAILJS_SERVICE_ID = 'YOUR_EMAILJS_SERVICE_ID';
+  const EMAILJS_TEMPLATE_ID = 'YOUR_EMAILJS_TEMPLATE_ID';
+  const EMAILJS_PUBLIC_KEY = 'YOUR_EMAILJS_PUBLIC_KEY';
+
+  function init() {
+    const openBtn = document.getElementById('requestDemoBtn');
+    const backdrop = document.getElementById('requestDemoBackdrop');
+    const closeBtn = document.getElementById('requestDemoClose');
+    const form = document.getElementById('requestDemoForm');
+    const statusEl = document.getElementById('requestDemoStatus');
+    if (!openBtn || !backdrop || !form) return;
+
+    const defaultStatusText = statusEl.textContent;
+    function open() { backdrop.classList.add('open'); }
+    function close() { backdrop.classList.remove('open'); }
+
+    openBtn.addEventListener('click', open);
+    closeBtn.addEventListener('click', close);
+    backdrop.addEventListener('click', (e) => { if (e.target === backdrop) close(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && backdrop.classList.contains('open')) close(); });
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const fd = new FormData(form);
+      const submitBtn = form.querySelector('button[type="submit"]');
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending…';
+
+      const templateParams = {
+        full_name: fd.get('fullName') || '',
+        work_email: fd.get('workEmail') || '',
+        company: fd.get('company') || '',
+        role: fd.get('role') || '',
+        interest: fd.get('interest') || '',
+        notes: fd.get('notes') || '',
+      };
+
+      let delivered = false;
+      try {
+        if (EMAILJS_SERVICE_ID.indexOf('YOUR_') !== 0) {
+          const res = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              service_id: EMAILJS_SERVICE_ID,
+              template_id: EMAILJS_TEMPLATE_ID,
+              user_id: EMAILJS_PUBLIC_KEY,
+              template_params: templateParams,
+            }),
+          });
+          delivered = res.ok;
+        }
+      } catch (err) { /* relay not configured yet or network error — fall through */ }
+
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Submit request';
+      statusEl.textContent = delivered
+        ? 'Thanks — your request has been sent. We\'ll be in touch shortly.'
+        : 'Thanks — your request has been recorded. (Email relay not yet configured — see code comments.)';
+      form.reset();
+      setTimeout(() => { close(); statusEl.textContent = defaultStatusText; }, 2200);
+    });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
